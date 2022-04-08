@@ -1,8 +1,3 @@
-package com.oliverClimbs.climbersAssistant.data
-
-import java.lang.Double.NaN
-import kotlin.math.abs
-
 /***************************************************************************************************
  *  measureVariance: Measurement Variance - How much do we expect to our measurement vary.
  *  processVariance: Process Variance - How fast your measurement moves.
