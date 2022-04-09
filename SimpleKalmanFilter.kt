@@ -20,6 +20,8 @@ class SimpleKalmanFilter(var measureVariance: Double,
     private set
 
   var estimationVariance = initialEstimationVariance
+    private set
+  
   private var lastMeasurement = NaN
 
   fun getEstimate(measurement: Double): Double
